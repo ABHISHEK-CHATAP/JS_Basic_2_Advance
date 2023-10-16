@@ -42,7 +42,6 @@ const getNames = (name1, name2, name3, name4)=>{
 
 
 
-
 // spread using Objects
 const student1 ={
     ...students,
@@ -50,9 +49,6 @@ const student1 ={
 }
 
 console.log("Override object",student1); //Override object { name: 'Abhishek', age: 24, hobbies: [ 'Cricket', 'tennis' ] }
-
-
-
 
 
 

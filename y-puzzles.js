@@ -44,3 +44,23 @@ return num.filter((x)=> x%2 == 0 ).map((x)=> x**2)
 // var input3 = parseInt(prompt("Enter third number:"));
 // var result = (input1 + input2 + input3) / 3;
 // console.log("The average of three numbers: " + result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -38,3 +38,30 @@ const promise = new Promise((resolve, reject) => {
 promise.then((res) => console.log(res)).catch((err) => console.log(err));
 
 // --------------------------------------------------------------------------------------------------------------------
+
+
+let promise3 = new Promise(function(resolve, reject) { 
+  let x = 3; 
+  let y = 9;
+  let val= x*y;
+  
+  if(val%2 == 0) { 
+    resolve(); 
+  } else { 
+    reject(); 
+  } 
+  }); 
+  
+  promise3. 
+    then(function () { 
+      console.log('Result is an even number'); 
+    }). 
+    catch(()=> { 
+      console.log('Rejected'); 
+    }); 
+
+
+    // ###################################################################################################################################################################
+    
+
+    
