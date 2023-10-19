@@ -40,7 +40,7 @@ promise.then((res) => console.log(res)).catch((err) => console.log(err));
 // --------------------------------------------------------------------------------------------------------------------
 
 
-let promise3 = new Promise(function(resolve, reject) { 
+let promise3 = new Promise((resolve, reject) =>{ 
   let x = 3; 
   let y = 9;
   let val= x*y;
@@ -52,16 +52,29 @@ let promise3 = new Promise(function(resolve, reject) {
   } 
   }); 
   
-  promise3. 
-    then(function () { 
+  promise3
+    .then(function () { 
       console.log('Result is an even number'); 
-    }). 
-    catch(()=> { 
+    })
+    .catch(()=> { 
       console.log('Rejected'); 
     }); 
 
 
     // ###################################################################################################################################################################
     
+const newPromise = new Promise((resolve, reject)=>{
+       let x =prompt("Enter a number : ");
 
-    
+       if(x % 2 == 0 ){
+        resolve();
+       }else{
+        reject();
+       }
+})
+
+newPromise.then(()=> console.log("Result is an Even number")).catch(()=> console.log("Result would be an Odd Number.."))
+
+
+
+    // ###################################################################################################################################################################

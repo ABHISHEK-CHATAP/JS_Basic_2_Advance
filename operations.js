@@ -21,7 +21,7 @@ const filterItems = (arr, query)=>{
 // const ObjToString = JSON.stringify(objData)
 // console.log(ObjToString);
 
-// const StringtObj = JSON.parse(ObjToString)
+// const StringtObj = JSON.parse(ObjToString);
 // console.log(StringtObj);
 
 // ###############################################################################
