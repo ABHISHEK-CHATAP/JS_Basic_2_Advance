@@ -8,7 +8,7 @@ const unique = ()=>{
 // console.log(unique());
 
 const concat = ()=>{
-    return [...arr,...arr1]
+    return [...arr,...arr1];
 }
 // console.log(concat());
 // console.log([...arr,...arr1]);
@@ -28,7 +28,7 @@ const result = words.filter((word) => word.length > 6);
 // ####################################################################################################
 //Find all prime numbers in an array
 const elements = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-const element1 = [2,2,3,4,5,1,1,6,6,7,9,9]
+const element1 = [2,2,3,4,5,1,1,6,6,7,9,9];
 
 const sorted =  [...new Set(element1)]
 // console.log(sorted); // [ 2, 3, 4, 5,1, 6, 7, 9]
@@ -43,5 +43,14 @@ const isPrime =(num)=>{
 }
 // console.log(elements.filter(isPrime));    //[ 2, 3, 5, 7, 11, 13 ]
 
+// ####################################################################################################
+
+// table of Numbers ::
+
+let val = prompt("enter a number : ");
+for(let i = 1; i<=10; i++){
+    // console.log( val , "*", i ,"=", val * i );
+}
 
 
+// ####################################################################################################

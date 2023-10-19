@@ -19,7 +19,7 @@ class Person {
         this.age = age;
         this.gender = gender;
     }
-}
+};
 
 
   
@@ -46,7 +46,18 @@ console.log(res);
 
 // ------------------------------------------------------------------------------------------------------------
 
+class newPerson {
+  constructor(name, age, gender){
+    this.name = name;
+    this.gender = gender;
+    this.age = age;
+  }
+}
 
+console.log("cklass is ::", newPerson);
+console.log("This is mine Second class", newPerson);
+let newPersonn = new newPerson("Abhishekkk", 23, "MALE")
+console.log(newPersonn);
 
 
 
